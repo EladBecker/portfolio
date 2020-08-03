@@ -26,7 +26,7 @@ function createProjs() {
             'Gotta flag\'em all',
             'Find all the mines using the number surrounded by neighbours, and flag them. Do not step on a mine!',
             'https://eladbecker.github.io/minesweeper/',
-            '/img/minesweeper.jpg',
+            'img/minesweeper.jpg',
             ['Minesweeper', 'Game', 'Web', 'Sprint', 'CaJul-2020']
         ));
         gProjs.push(createProj(
@@ -34,7 +34,7 @@ function createProjs() {
             'CRUDL exercise',
             'a table that gets details of all books in shop from local storage, and applies CRUDL for the shop owner',
             'https://eladbecker.github.io/book-shop/',
-            '/img/book-shop.jpg',
+            'img/book-shop.jpg',
             ['JS', 'CRUDL', 'Web', 'CaJul-2020']
         ));
         saveToStorage(KEY, gProjs);
